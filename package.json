@@ -1,0 +1,38 @@
+{
+  "name": "native-dnssec-dns-packet",
+  "version": "0.1.2",
+  "authors": [
+    "Timothy J Fontaine <tjfontaine@gmail.com> (http://atxconsulting.com)",
+    "Greg Slepak <contact@taoeffect.com> (https://twitter.com/taoeffect)",
+    "Matthieu Rakotojaona",
+    "Eduardo Ruiz <eruiz@dataclick.es> (https://www.dataclick.es)"
+  ],
+  "description": "Raw DNS Packet Parsing and Writing",
+  "keywords": [
+    "dns",
+    "parsing"
+  ],
+  "homepage": "https://github.com/eduardoruizm/native-dnssec-dns-packet",
+  "bugs": {
+    "url": "https://github.com/eduardoruizm/native-dnssec-dns-packet/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eduardoruizm/native-dnssec-dns-packet.git"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.5.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "tap ./test/*.js"
+  },
+  "dependencies": {
+    "buffercursor": ">= 0.0.12",
+    "ipaddr.js": ">= 0.1.1"
+  },
+  "devDependencies": {
+    "tap": ">= 0.4.3"
+  }
+}
